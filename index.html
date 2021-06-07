@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>The Complete jQuery Course - Course Code</title>
+</head>
+<body>
+  <div id="content">
+    <center><h1>New User Registration</h1></center>
+    
+    <!-- A form element without class or ID  -->
+    <form id="form" action="">
+      <div class="form-group">
+        <div class="col-25">
+          <label for="name">Username</label>
+        </div>
+        <div class="col-75">
+          <input id="name" type="text" value="" placeholder="Enter Name"><br>
+          <span id="name-feedback"></span><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-25">
+          <label for="password">Password</label>
+        </div>
+        <div class="col-75">
+          <input id="password" type="password" value="" placeholder="Enter Password"><br>
+          <span id="password-feedback"></span><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-25">
+          <label for="email">Email Address</label>
+        </div>
+        <div class="col-75">
+          <input id="email" type="email" value="" placeholder="Enter Email"><br>
+          <span id="email-feedback"></span><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-25">
+          <label for="address">Address</label>
+        </div>
+        <div class="col-75">
+        <textarea id="address" name="address" cols="30" rows="10" placeholder="Enter Address"></textarea><br>
+        <span id="address-feedback"></span><br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-25">
+          <label>Gender</label>
+        </div>
+        <div class="col-75">
+          <div class="radio-buttons">
+            <input type="radio" id="gender" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="gender" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <span id="gender-feedback"></span><br>
+          </div>
+          <br>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-25">
+          <label for="dateOfBirth">Date of Birth</label>
+        </div>
+        <div class="col-75">
+          <input type="date" name="dateOfBirth" id="dateOfBirth" style="margin-right: 39%; width: 34%;">
+          <span id="address-feedback"></span><br>
+        </div>
+        <br>
+      </div>
+      <div class="form-group">
+        <div class="col-25">
+          <label for="country">Country</label>
+        </div>
+        <div class="col-75">
+          <div class="select" style="width: 35%; margin-left: 13%;">
+          <select>
+            <option value="India">India</option>
+            <option value="UK">UK</option>
+            <option value="USA">USA</option>
+          </select>
+          </div>
+          <span id="address-feedback"></span><br>
+        </div>
+        <br>
+      </div>
+      <div class="form-group">
+        <div class="col-25"></div>
+        <div class="col-75">
+          <div style="float: left; padding-left: 12%;">
+            <input id="checkbox" type="checkbox" name="cb">
+            <label for="checkbox">I accept</label>
+            <span id="checkbox-feedback"></span><br>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-25"></div>
+        <div class="col-75">
+          <input type="submit" value="Submit">
+        </div>
+      </div>
+    </form>
+
+</body>
+</html>
